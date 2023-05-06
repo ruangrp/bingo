@@ -1,0 +1,169 @@
+
+<HTML>
+	<HEAD>
+	<!--
+		@author: Ruan Carlos Gonçalves
+		ruangrp@gmail.com
+		31.07.2019
+	-->
+	
+
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<script type="text/javascript" src="assets/js/script_bingo.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style_bingo.css" />
+		<style type="text/css">
+     
+  
+    </style>
+	</HEAD>
+		<TITLE>BINGO</TITLE>
+	<BODY>
+		
+<!--<h1><marquee scrollamount="15">COLABORADOR</marquee></h1>-->
+
+		<TABLE BORDER="0" WIDTH=100% HEIGHT=100%>
+			<TR>
+				<TD WIDTH=70%>
+					<TABLE id="tabela_cartela">
+					<tr>
+						<TD ALIGN=center HEIGHT=80 COLSPAN=5> 
+							<B>
+								<TABLE id="cabecalho_bingo_tabela">								
+									<TR>
+										<td ALIGN=center width="20%"><FONT FACE="Ubuntu" color="white" SIZE=16>B</FONT></td>
+										<td ALIGN=center width="20%"><FONT FACE="Ubuntu" color="white" SIZE=16>I</FONT></td>
+										<td ALIGN=center width="20%"><FONT FACE="Ubuntu" color="white" SIZE=16>N</FONT></td>
+										<td ALIGN=center width="20%"><FONT FACE="Ubuntu" color="white" SIZE=16>G</FONT></td>
+										<td ALIGN=center width="20%"><FONT FACE="Ubuntu" color="white" SIZE=16>O</FONT></td>
+									</TR>
+								</TABLE>
+								</B>
+							</TD>
+					</TR>
+					<div id="page">
+					<tr>
+						<td align=center width=20% height=60 id="B1">&nbsp;</td>
+						<td align=center width=20% height=60 id="I1">&nbsp;</td>
+						<td align=center width=20% height=60 id="N1">&nbsp;</td>
+						<td align=center width=20% height=60 id="G1">&nbsp;</td>
+						<td align=center width=20% height=60 id="O1">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=center width=20% height=50 id="B2">&nbsp;</td>
+						<td align=center width=20% height=50 id="I2">&nbsp;</td>
+						<td align=center width=20% height=50 id="N2">&nbsp;</td>
+						<td align=center width=20% height=50 id="G2">&nbsp;</td>
+						<td align=center width=20% height=50 id="O2">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=center width=20% height=50 id="B3">&nbsp;</td>
+						<td align=center width=20% height=50 id="I3">&nbsp;</td>
+						<td align=center width=20% height=50 id="N3">&nbsp;</td>
+						<td align=center width=20% height=50 id="G3">&nbsp;</td>
+						<td align=center width=20% height=50 id="O3">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=center width=20% height=50 id="B4">&nbsp;</td>
+						<td align=center width=20% height=50 id="I4">&nbsp;</td>
+						<td align=center width=20% height=50 id="N4">&nbsp;</td>
+						<td align=center width=20% height=50 id="G4">&nbsp;</td>
+						<td align=center width=20% height=50 id="O4">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=center width=20% height=50 id="B5">&nbsp;</td>
+						<td align=center width=20% height=50 id="I5">&nbsp;</td>
+						<td align=center width=20% height=50 id="N5">&nbsp;</td>
+						<td align=center width=20% height=50 id="G5">&nbsp;</td>
+						<td align=center width=20% height=50 id="O5">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=center width=20% height=50 id="B6">&nbsp;</td>
+						<td align=center width=20% height=50 id="I6">&nbsp;</td>
+						<td align=center width=20% height=50 id="N6">&nbsp;</td>
+						<td align=center width=20% height=50 id="G6">&nbsp;</td>
+						<td align=center width=20% height=50 id="O6">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=center width=20% height=50 id="B7">&nbsp;</td>
+						<td align=center width=20% height=50 id="I7">&nbsp;</td>
+						<td align=center width=20% height=50 id="N7">&nbsp;</td>
+						<td align=center width=20% height=50 id="G7">&nbsp;</td>
+						<td align=center width=20% height=50 id="O7">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=center width=20% height=50 id="B8">&nbsp;</td>
+						<td align=center width=20% height=50 id="I8">&nbsp;</td>
+						<td align=center width=20% height=50 id="N8">&nbsp;</td>
+						<td align=center width=20% height=50 id="G8">&nbsp;</td>
+						<td align=center width=20% height=50 id="O8">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=center width=20% height=50 id="B9">&nbsp;</td>
+						<td align=center width=20% height=50 id="I9">&nbsp;</td>
+						<td align=center width=20% height=50 id="N9">&nbsp;</td>
+						<td align=center width=20% height=50 id="G9">&nbsp;</td>
+						<td align=center width=20% height=50 id="O9">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=center width=20% height=50 id="B10">&nbsp;</td>
+						<td align=center width=20% height=50 id="I10">&nbsp;</td>
+						<td align=center width=20% height=50 id="N10">&nbsp;</td>
+						<td align=center width=20% height=50 id="G10">&nbsp;</td>
+						<td align=center width=20% height=50 id="O10">&nbsp;</td>
+						</tr>
+					<tr>
+						<td align=center width=20% height=50 id="B11">&nbsp;</td>
+						<td align=center width=20% height=50 id="I11">&nbsp;</td>
+						<td align=center width=20% height=50 id="N11">&nbsp;</td>
+						<td align=center width=20% height=50 id="G11">&nbsp;</td>
+						<td align=center width=20% height=50 id="O11">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=center width=20% height=50 id="B12">&nbsp;</td>
+						<td align=center width=20% height=50 id="I12">&nbsp;</td>
+						<td align=center width=20% height=50 id="N12">&nbsp;</td>
+						<td align=center width=20% height=50 id="G12">&nbsp;</td>
+						<td align=center width=20% height=50 id="O12">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=center width=20% height=50 id="B13">&nbsp;</td>
+						<td align=center width=20% height=50 id="I13">&nbsp;</td>
+						<td align=center width=20% height=50 id="N13">&nbsp;</td>
+						<td align=center width=20% height=50 id="G13">&nbsp;</td>
+						<td align=center width=20% height=50 id="O13">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=center width=20% height=50 id="B14">&nbsp;</td>
+						<td align=center width=20% height=50 id="I14">&nbsp;</td>
+						<td align=center width=20% height=50 id="N14">&nbsp;</td>
+						<td align=center width=20% height=50 id="G14">&nbsp;</td>
+						<td align=center width=20% height=50 id="O14">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=center width=20% height=50 id="B15">&nbsp;</td>
+						<td align=center width=20% height=50 id="I15">&nbsp;</td>
+						<td align=center width=20% height=50 id="N15">&nbsp;</td>
+						<td align=center width=20% height=50 id="G15">&nbsp;</td>
+						<td align=center width=20% height=50 id="O15">&nbsp;</td>
+					</tr>
+					</div>
+					</TABLE>
+				</TD>
+				<TD valign="top">
+				 <img width="80%" height="20%" src="assets/css/Bingo.gif">
+				<h4 id="erro">&nbsp;</h4>
+					
+					<!--<h3><a href="#" id="getRandom" ><img src="assets/css/sortear.jpg"></a></h3>-->
+					<h2><a href="#" id="getRandom" ><button>Sortear</button></a></h2>
+
+
+
+				</TD>
+							
+		</TABLE>
+	</BODY>
+</HTML>
