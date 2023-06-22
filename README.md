@@ -6,7 +6,7 @@ Os números sorteados são organizados em fila abaixo de cada letra corresponden
 ---------------------
 | B | I | N | G | O |
 ---------------------
-| 1 | 16| 31| 45| 61| 
+| 1 | 16| 31| 45| 61| \n
 | 2 | 17| 32| 46| 62|
 | 3 | 18| 33| 47| 63|
 ...
